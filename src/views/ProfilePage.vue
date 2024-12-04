@@ -32,7 +32,6 @@
             </ion-list>
 
             <!-- Tabs Menu -->
-            <TabsMenu />
         </ion-content>
     </ion-page>
 </template>
@@ -59,7 +58,6 @@
         computed,
         ref
     } from "vue";
-    import TabsMenu from "@/components/TabsMenu.vue";
     import {
         useAuthStore
     } from "@/stores/auth";
