@@ -2,7 +2,7 @@
     <ion-modal :is-open="isOpen" @did-dismiss="cancel">
         <ion-header>
             <ion-toolbar>
-                <ion-title>{{ editingId ? 'Edit' : 'Add' }} Todo</ion-title>
+                <ion-title>{{ editingId ? 'Edit' : 'Add' }} Mainan</ion-title>
                 <ion-buttons slot="start">
                     <ion-button @click="cancel"><ion-icon :icon="close"></ion-icon></ion-button>
                 </ion-buttons>
@@ -20,7 +20,7 @@
             <ion-row>
                 <ion-col>
                     <ion-button type="button" @click="input" shape="round" color="primary" expand="block">
-                        {{ editingId ? 'Edit' : 'Add' }} Todo
+                        {{ editingId ? 'Edit' : 'Add' }} Mainan
                     </ion-button>
                 </ion-col>
             </ion-row>
